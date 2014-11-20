@@ -54,7 +54,7 @@ Tiếp theo update repo:
 
 Sau khi chạy lệnh này, client sẽ đọc đc file Packages.gz ở server và biết được trong repo có những gói nào. <br>
 Bây giờ có thể cài đặt OpenStack AIO theo script một cách nhanh chóng mà không cần kết nối internet. Điều kiện là client đã có những script này.<br>
-Một lưu ý là khi thực hiện cài đặt gói ở client, hệ thống sẽ đòi xác thực lại là có muốn tải file về hay không? Điều này sẽ làm cho những câu lệnh tải gói có biến -y trong script bị lỗi. Do đó cần sửa script để xoá các biến -y này! Khi đến các bước tải gói cần phải xác nhận thủ công. <br>
+***Một lưu ý*** là khi thực hiện cài đặt gói ở client, hệ thống sẽ đòi xác thực lại là có muốn tải file về hay không? Điều này sẽ làm cho những câu lệnh tải gói có biến ***-y*** trong script ***bị lỗi***. Do đó cần sửa script để xoá các biến -y này! Khi đến các bước tải gói cần phải ***xác nhận thủ công***. <br>
 Hoàn thành bài lab.
 
 
