@@ -1,6 +1,6 @@
 Local-Repository
 ================
-##I/Thông tin LAB
+##I. Thông tin LAB
 Tạo Local Repository để cài đặt OpenStack thông qua mạng LAN <br>
 Việc này rất hữu dụng để cài đặt triển khai những hệ thống cần có sự đồng bộ về phiên bản của các gói cài đặt, 
 giảm thời gian triển khai do bớt được thời gian download các gói, tiết kiệm băng thông cho hệ thống. <br>
@@ -13,7 +13,7 @@ giảm thời gian triển khai do bớt được thời gian download các gói
 - Trên máy clien do mục đích của bài LAB là cài thử nghiệm OpenStack AIO nên các bước chuẩn bị [**tại đây**](https://github.com/vietstacker/icehouse-aio-ubuntu14.04/blob/master/hd-caidat-openstack-icehouse-aio.md)
 - Trên mô hình chỉ có 1 card cho client do đã disable card ra internet
 
-##II/Các bước cài đặt
+##II. Các bước cài đặt
 ###1. Cài đặt server
 Đầu tiên cài đặt apache:
 
