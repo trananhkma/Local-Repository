@@ -56,7 +56,10 @@ Sau khi chạy lệnh này, client sẽ đọc đc file Packages.gz ở server v
 Bây giờ có thể cài đặt OpenStack AIO theo script một cách nhanh chóng mà không cần kết nối internet. Điều kiện là client đã có những script này.<br>
 ***Một lưu ý*** là khi thực hiện cài đặt gói ở client, hệ thống sẽ đòi xác thực lại là có muốn tải file về hay không? Điều này sẽ làm cho những câu lệnh tải gói có biến ***-y*** trong script ***bị lỗi***. Do đó cần sửa script để xoá các biến -y này! Khi đến các bước tải gói cần phải ***xác nhận thủ công***. <br>
 Hoàn thành bài lab.
-
+<br>
+<br>
+***Update:*** Đối với trường hợp trên, không nhất thiết phải xác nhận thủ công như vậy, bạn có thể thêm tùy chọn ***--force-yes*** vào mỗi câu lệnh cài đặt. Tùy chọn này sẽ bỏ qua mọi cảnh báo khi cài đặt, do đó hệ thống sẽ không đòi xác nhận nữa. Tuy nhiên, cần thận trọng khi sử dụng tùy chọn này vì nó có thể gây nguy hại cho hệ thống. <br>
+Trích lệnh ***man***: Using force-yes can potentially destroy your system!
 
 
 
